@@ -116,6 +116,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Speechlet\MenuIntentSchema.json" />
+    <None Include="Properties\PublishProfiles\SchoolMenuSkill20161226041913 - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

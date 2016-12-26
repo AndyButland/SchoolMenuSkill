@@ -2,3 +2,5 @@
 MenuForDateIntent what was the menu for {Date}
 MenuForDateIntent what are they eating on {Date}
 MenuForDateIntent what were they eating on {Date}
+MenuForDateIntent what are they eating {Date}
+MenuForDateIntent what were they eating {Date}
