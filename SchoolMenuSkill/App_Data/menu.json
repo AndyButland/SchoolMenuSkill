@@ -1,0 +1,165 @@
+﻿{
+  "initialDate": "2016-12-01T00:00:00+00:00",
+  "menu": [
+    {
+      "week": 1,
+      "day": "Monday",
+      "primo": "Tagliatelle with ragù",
+      "secondo": "Asiago cheese",
+      "contorno": "Sautéed mushrooms or salad",
+      "dolce": "Pear"
+    },
+    {
+      "week": 1,
+      "day": "Tuesday",
+      "primo": "Rice with tomato",
+      "secondo": "Grilled chicken breast",
+      "contorno": "Peas and carrots",
+      "dolce": "Apple"
+    },
+    {
+      "week": 1,
+      "day": "Wednesday",
+      "primo": "Polenta",
+      "secondo": "Beef strips",
+      "contorno": "Cooked vegetables or salad",
+      "dolce": "Banana"
+    },
+    {
+      "week": 1,
+      "day": "Thursday",
+      "primo": "Barley soup with croutons and pumpkin",
+      "secondo": "Grilled pork",
+      "contorno": "Steamed carrots or salad",
+      "dolce": "Torta della nonna"
+    },
+    {
+      "week": 1,
+      "day": "Friday",
+      "primo": "Fusilli with pesto",
+      "secondo": "Fish cutlet",
+      "contorno": "Baked potatoes and salid",
+      "dolce": "Orange"
+    },
+    {
+      "week": 2,
+      "day": "Monday",
+      "primo": "Rice with shrimp",
+      "secondo": "Roast turkey",
+      "contorno": "Steamed cauliflower or salad",
+      "dolce": "Red apple"
+    },
+    {
+      "week": 2,
+      "day": "Tuesday",
+      "primo": "Focaccia",
+      "secondo": "Cooked ham",
+      "contorno": "Spinach or salad",
+      "dolce": "Budino"
+    },
+    {
+      "week": 2,
+      "day": "Wednesday",
+      "primo": "Lasagne with meat source",
+      "secondo": "Grana cheese",
+      "contorno": "Carrots and cappuccio",
+      "dolce": "Fresh pineapple"
+    },
+    {
+      "week": 2,
+      "day": "Thursday",
+      "primo": "Ravioli filled with ricotta and spinach",
+      "secondo": "Hamburger",
+      "contorno": "Mashed potato or salad",
+      "dolce": "Yoghurt"
+    },
+    {
+      "week": 2,
+      "day": "Friday",
+      "primo": "Spaghetti with tuna and tomatoes",
+      "secondo": "Tuna",
+      "contorno": "Cannellini beans or salad",
+      "dolce": "Banana"
+    },
+    {
+      "week": 3,
+      "day": "Monday",
+      "primo": "Tagliatelle with ragù",
+      "secondo": "Stracchino",
+      "contorno": "Steamed carrots or salad",
+      "dolce": "Pear"
+    },
+    {
+      "week": 3,
+      "day": "Tuesday",
+      "primo": "Pasta with beans",
+      "secondo": "Grilled chicken breast",
+      "contorno": "Mushrooms or salad",
+      "dolce": "Apple"
+    },
+    {
+      "week": 3,
+      "day": "Wednesday",
+      "primo": "Rice with tomatoes",
+      "secondo": "Hard-boiled eggs",
+      "contorno": "Cappuccio and carrots",
+      "dolce": "Banana"
+    },
+    {
+      "week": 3,
+      "day": "Thursday",
+      "primo": "Polenta",
+      "secondo": "Beef meatballs",
+      "contorno": "Peas or salad",
+      "dolce": "Apricot tart"
+    },
+    {
+      "week": 3,
+      "day": "Friday",
+      "primo": "Pesto",
+      "secondo": "Baked cod sticks",
+      "contorno": "Steamed potatoes or salad",
+      "dolce": "Orange"
+    },
+    {
+      "week": 4,
+      "day": "Monday",
+      "primo": "Gnocchi with ragù",
+      "secondo": "Caciotta",
+      "contorno": "Fennel or salad",
+      "dolce": "Apple"
+    },
+    {
+      "week": 4,
+      "day": "Tuesday",
+      "primo": "Rice with peas",
+      "secondo": "Grilled turkey breasts",
+      "contorno": "Chard casserole and cappuccio",
+      "dolce": "Budino"
+    },
+    {
+      "week": 4,
+      "day": "Wednesday",
+      "primo": "Pizza margherita",
+      "secondo": "Cooked ham",
+      "contorno": "Carrots and salad",
+      "dolce": "Fresh pineapple"
+    },
+    {
+      "week": 4,
+      "day": "Thursday",
+      "primo": "Sardinian gnocchi with tomato sauce",
+      "secondo": "Hamburger",
+      "contorno": "Steamed cauliflower and salad",
+      "dolce": "Yoghurt"
+    },
+    {
+      "week": 4,
+      "day": "Friday",
+      "primo": "Ravioli filled with ricotta and spinach with butter and sage",
+      "secondo": "Baked salmon",
+      "contorno": "Baked potatoes",
+      "dolce": "Banana"
+    }
+  ]
+}

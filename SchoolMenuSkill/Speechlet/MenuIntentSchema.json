@@ -1,0 +1,13 @@
+﻿{
+  "intents": [
+    {
+      "intent": "MenuForDateIntent",
+      "slots": [
+        {
+          "name": "Date",
+          "type": "AMAZON.DATE"
+        }
+      ]
+    }
+  ]
+}

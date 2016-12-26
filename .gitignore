@@ -1,0 +1,27 @@
+[Dd]ebug/
+[Rr]elease/
+[Bb]in/
+[Oo]bj/
+*.suo
+*.sln.cache 
+*.user
+TestResults/
+*.tmp
+*[Rr]e[Ss]harper.user
+_ReSharper.*/
+StyleCop.Cache
+
+.DS_Store
+Thumbs.db
+__MACOSX/
+
+# Generated
+.sass-cache/
+node_modules/
+
+#VS 2015
+.vs/config/applicationhost.config
+
+#NuGet
+**/packages/*
+
