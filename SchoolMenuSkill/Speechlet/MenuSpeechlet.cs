@@ -8,6 +8,7 @@
     using AlexaSkillsKit.Speechlet;
     using AlexaSkillsKit.UI;
     using Newtonsoft.Json;
+    using SchoolMenuSkill.Helpers;
     using SchoolMenuSkill.Models;
 
     public class MenuSpeechlet : SpeechletAsync
@@ -64,7 +65,10 @@
                     _menuSchedule = await LoadMenuSchedule();
                 }
 
-                output = _menuSchedule.GetMenuForDate(date).ToString(date);
+                var menu = _menuSchedule.GetMenuForDate(date);
+                output = menu != null 
+                    ? _menuSchedule.GetMenuForDate(date).ToString(date) 
+                    : $"Sorry, no menu is available for {date.ToStringWithSuffix("d MMMM")}";
             }
             else
             {

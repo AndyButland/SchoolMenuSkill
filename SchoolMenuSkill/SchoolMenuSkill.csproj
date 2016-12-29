@@ -108,6 +108,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Helpers\DateTimeExtensions.cs" />
+    <Compile Include="Models\Menu.cs" />
     <Compile Include="Models\MenuSchedule.cs" />
     <Compile Include="Providers\DateTimeProvider.cs" />
     <Compile Include="Providers\IDateTimeProvider.cs" />

@@ -90,7 +90,7 @@
         }
 
         [TestMethod]
-        public void MenuSchedule_GetsMenuForDayInPreviousWeek()
+        public void MenuSchedule_ReturnNullForDatePriorToInitialMenuDate()
         {
             // Arrange
             var schedule = CreateSchedule();
@@ -100,41 +100,7 @@
             var menu = schedule.GetMenuForDate(date);
 
             // Assert
-            Assert.AreEqual(
-                "On Wednesday 30th November, the menu was Spaghetti, then Beef with Carrots, finishing with Cake",
-                menu.ToString(date, GetDateTimeProvider()));
-        }
-
-        [TestMethod]
-        public void MenuSchedule_GetsMenuForDayInSecondPreviousWeek()
-        {
-            // Arrange
-            var schedule = CreateSchedule();
-
-            // Act
-            var date = GetTestDate().AddDays(-7).AddDays(-5);
-            var menu = schedule.GetMenuForDate(date);
-
-            // Assert
-            Assert.AreEqual(
-                "On Wednesday 23rd November, the menu was Spaghetti, then Beef with Carrots, finishing with Cake",
-                menu.ToString(date, GetDateTimeProvider()));
-        }
-
-        [TestMethod]
-        public void MenuSchedule_GetsMenuForDayInThirdPreviousWeek()
-        {
-            // Arrange
-            var schedule = CreateSchedule();
-
-            // Act
-            var date = GetTestDate().AddDays(-14).AddDays(-5);
-            var menu = schedule.GetMenuForDate(date);
-
-            // Assert
-            Assert.AreEqual(
-                "On Wednesday 16th November, the menu was Spaghetti, then Beef with Carrots, finishing with Cake",
-                menu.ToString(date, GetDateTimeProvider()));
+            Assert.IsNull(menu);
         }
 
         private static MenuSchedule CreateSchedule()
