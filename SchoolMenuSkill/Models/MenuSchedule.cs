@@ -2,10 +2,7 @@
 {
     using System;
     using System.Collections.Generic;
-
     using Newtonsoft.Json;
-    using SchoolMenuSkill.Helpers;
-    using SchoolMenuSkill.Providers;
 
     public class MenuSchedule
     {

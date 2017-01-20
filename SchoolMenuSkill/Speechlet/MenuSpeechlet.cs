@@ -23,6 +23,12 @@
             return Task.FromResult(GetWelcomeResponse());
         }
 
+        private SpeechletResponse GetWelcomeResponse()
+        {
+            var output = "Welcome to the English International School menu app. Please request the menu for a given date.";
+            return BuildSpeechletResponse("Welcome", output, false);
+        }
+
         public async override Task<SpeechletResponse> OnIntentAsync(IntentRequest intentRequest, Session session)
         {
             // Get intent from the request object.
@@ -79,12 +85,6 @@
             // Here we are setting shouldEndSession to false to not end the session and
             // prompt the user for input
             return BuildSpeechletResponse(intent.Name, output, false);
-        }
-
-        private SpeechletResponse GetWelcomeResponse()
-        {
-            var output = "Welcome to the English International School menu app. Please request the menu for a given date.";
-            return BuildSpeechletResponse("Welcome", output, false);
         }
 
         private async Task<MenuSchedule> LoadMenuSchedule()

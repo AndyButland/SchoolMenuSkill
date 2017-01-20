@@ -2,6 +2,46 @@
   "initialDate": "2017-01-09T00:00:00+00:00",
   "menu": [
     {
+      "week": 4,
+      "day": "Monday",
+      "primo": "Gnocchi with ragù",
+      "secondo": "Caciotta",
+      "contorno": "Fennel or salad",
+      "dolce": "Apple"
+    },
+    {
+      "week": 4,
+      "day": "Tuesday",
+      "primo": "Rice with peas",
+      "secondo": "Grilled turkey breasts",
+      "contorno": "Chard casserole and cappuccio",
+      "dolce": "Budino"
+    },
+    {
+      "week": 4,
+      "day": "Wednesday",
+      "primo": "Pizza margherita",
+      "secondo": "Cooked ham",
+      "contorno": "Carrots and salad",
+      "dolce": "Fresh pineapple"
+    },
+    {
+      "week": 4,
+      "day": "Thursday",
+      "primo": "Sardinian gnocchi with tomato sauce",
+      "secondo": "Hamburger",
+      "contorno": "Steamed cauliflower and salad",
+      "dolce": "Yoghurt"
+    },
+    {
+      "week": 4,
+      "day": "Friday",
+      "primo": "Ravioli filled with ricotta and spinach with butter and sage",
+      "secondo": "Baked salmon",
+      "contorno": "Baked potatoes",
+      "dolce": "Banana"
+    },
+    {
       "week": 1,
       "day": "Monday",
       "primo": "Tagliatelle with ragù",
@@ -120,46 +160,6 @@
       "secondo": "Baked cod sticks",
       "contorno": "Steamed potatoes or salad",
       "dolce": "Orange"
-    },
-    {
-      "week": 4,
-      "day": "Monday",
-      "primo": "Gnocchi with ragù",
-      "secondo": "Caciotta",
-      "contorno": "Fennel or salad",
-      "dolce": "Apple"
-    },
-    {
-      "week": 4,
-      "day": "Tuesday",
-      "primo": "Rice with peas",
-      "secondo": "Grilled turkey breasts",
-      "contorno": "Chard casserole and cappuccio",
-      "dolce": "Budino"
-    },
-    {
-      "week": 4,
-      "day": "Wednesday",
-      "primo": "Pizza margherita",
-      "secondo": "Cooked ham",
-      "contorno": "Carrots and salad",
-      "dolce": "Fresh pineapple"
-    },
-    {
-      "week": 4,
-      "day": "Thursday",
-      "primo": "Sardinian gnocchi with tomato sauce",
-      "secondo": "Hamburger",
-      "contorno": "Steamed cauliflower and salad",
-      "dolce": "Yoghurt"
-    },
-    {
-      "week": 4,
-      "day": "Friday",
-      "primo": "Ravioli filled with ricotta and spinach with butter and sage",
-      "secondo": "Baked salmon",
-      "contorno": "Baked potatoes",
-      "dolce": "Banana"
     }
   ]
 }
