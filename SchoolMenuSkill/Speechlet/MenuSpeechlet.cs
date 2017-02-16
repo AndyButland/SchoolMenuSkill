@@ -63,6 +63,7 @@
             // Create response
             string output;
             DateTime date;
+            var endSession = false;
             if (dateSlot != null && DateTime.TryParse(dateSlot.Value, out date))
             {
                 // Retrieve and return the menu response
@@ -72,19 +73,24 @@
                 }
 
                 var menu = _menuSchedule.GetMenuForDate(date);
-                output = menu != null 
-                    ? _menuSchedule.GetMenuForDate(date).ToString(date) 
-                    : $"Sorry, no menu is available for {date.ToStringWithSuffix("d MMMM")}";
+                if (menu != null)
+                {
+                    output = _menuSchedule.GetMenuForDate(date).ToString(date);
+                    endSession = true;
+                }
+                else
+                {
+                    output = $"Sorry, no menu is available for {date.ToStringWithSuffix("d MMMM")}.  Please try another date or say quit to exit";
+                }
             }
             else
             {
                 // Render an error since we don't know what the date requested is
-                output = "I'm not sure which date you require, please try again.";
+                output = "I'm not sure which date you require, please try again or say quit to exit.";
             }
 
-            // Here we are setting shouldEndSession to false to not end the session and
-            // prompt the user for input
-            return BuildSpeechletResponse(intent.Name, output, false);
+            // Return response, passing flag for whether to end the conversation
+            return BuildSpeechletResponse(intent.Name, output, endSession);
         }
 
         private async Task<MenuSchedule> LoadMenuSchedule()
